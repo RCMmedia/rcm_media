@@ -41,14 +41,21 @@ img{border:0}
 a{text-decoration:none;outline:none;cursor:pointer}
 #wrapper {text-align: center;margin: 10px 0;	}
 .resposive {width: 100%;height: auto;}
+p {margin-bottom: 20px}
+a {
+  border: 2px solid;
+  color: #1e91c5;
+  padding: 7px 15px;
+}
 </style>
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
 
 <div id="wrapper">
-<p><img src="<?php bloginfo('template_url') ?>/images/logo.png" alt="logo" width="200" height="200"></p>
+<div><img src="<?php bloginfo('template_url') ?>/images/logo.png" alt="logo" width="200" height="200"></div>
 <h3 style="color:#2D2D2D;font-weight: lighter;margin-bottom: 20px">coming soon... you better believe it</h3>
+<p><a href="mailto:contact@rcm.media">give us a holler </a></p>
 <p><img class="resposive" src="<?php bloginfo('template_url') ?>/images/boom.jpg" alt="boom" >	</p>
 
 </div><!-- #wrapper -->
